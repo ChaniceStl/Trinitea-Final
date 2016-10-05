@@ -1,14 +1,16 @@
 import React from 'react';
+import {Link} from "react-router"
 
 var TeaItems = React.createClass({
 	render:function(){
 		return(
+		
 			<li>
 				<div>
-					<p>Name:{this.props.name} </p>
+
+					<img src={this.props.image}/>
+					<Link to={"/Tea/"+ this.props.category +"/" + this.props.name}><p>Name:{this.props.name}</p></Link>
 					<p>Price:{this.props.price}</p>
-					<p>Description:{this.props.description}</p>
-					<p>Ingredients:{this.props.ingredients}</p>
 				</div>
 			</li>
 			)

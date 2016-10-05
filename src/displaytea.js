@@ -14,29 +14,22 @@ var DisplayTea = React.createClass({
   	this.setState({menuList:info})
   },
   render: function() {
-  {	
   	var arr = []
-  	if(this.props.params.name === 'black')
+  	if(this.props.params.category === 'black')
   			{ 
   				arr.push(this.state.menuList.black.map(
-  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems category="black"image={a.image}name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
-  	else if(this.props.params.name === 'green')
+  	else if(this.props.params.category === 'green')
   			{ 
   				arr.push(this.state.menuList.green.map(
-  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems category="green" image={a.image}name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
-  	else if(this.props.params.name === 'herbal')
+  	else if(this.props.params.category === 'herbal')
   			{ 
   				arr.push(this.state.menuList.herbal.map(
-  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems category="herbal"image={a.image}name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
-  	else if(this.props.params.name === 'teaware')
-  			{ 
-  				arr.push(this.state.menuList.teaware.map(
-  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
-  			))}
-}
     return (
       <div >
   				<ul className="arrUl">	

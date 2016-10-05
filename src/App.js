@@ -13,7 +13,9 @@ import Teaware from "./Teaware.js";
 import About from './About.js';
 import Footer from './Footer.js';
 import DisplayTea from "./displaytea.js"
-// import GreenTea from './greentea.js';
+import TeaProduct from "./teaproducts.js"
+
+
 
 var App = React.createClass({
   render: function() {
@@ -30,10 +32,11 @@ var App = React.createClass({
 
 ReactDOM.render(
  <Router history={hashHistory}>
- 	  <Route path="/" component={App} >
+    <Route path="/" component={App} >
       <IndexRoute component={Home}/>
       <Route path="/Tea" component={Tea}/>
-      <Route path='/Tea/:name' component={DisplayTea}/>
+      <Route path='/Tea/:category' component={DisplayTea}/>
+     <Route path="/Tea/:category/:product" component={TeaProduct}/>
       <Route path="Teaware" component={Teaware}/>
      <Route path="About" component={About}/>
     </Route>

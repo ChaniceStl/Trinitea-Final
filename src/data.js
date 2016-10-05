@@ -25,32 +25,33 @@ let data = {
     trinitea_phone: 'phone: (555)-555-1234'
   },
   menu: {
-    black: [{name:"Ginger Chai",
+    black: [{image:"http://i68.tinypic.com/6f2vwi.jpg",name:"Ginger Chai",
     price:"8oz $12 16oz $20",
      description:"Ginger Chai has the warm and soothing feeling of a ginger tea with an extra spicy chai taste thanks to our blend of black tea, herbs and pungent spices. This unique blend has all of the flavors and qualities you’d expect from a chai but with the kick of ginger. Being used for more than 2,000 years by Ayurvedic practitioners, ginger has been known to aid digestion, relieve stomach problems (nausea and motion/morning sickness), intestinal gas as well as menstrual cramps. Enjoy a cup before or after any meal. Add milk and sweeter to taste to make a delicious ginger chai latte." ,
      ingredients: "(* organic): Ginger*, lemongrass*, licorice root*, peppermint*, black pepper*, black tea* and natural flavor"},
 
-      {name:'Tropical Flower',
+      { image:"http://i68.tinypic.com/6f2vwi.jpg",
+        name:'Tropical Flower',
       price:"8oz $15 16oz $25" ,
       description:'An elegant blend of premium organic black tea, natural tropical essences and beautiful organic flowers. This is a true "designer tea" with extraordinary flavor and appearance. Our highest commendations to organic flower growers who give us the incredible flowers in this magnificent blend!',
       ingredients:" (* organic): Black tea*, hibiscus*, natural flavor, corn flowers* & calendula flowers*"},
 
-       {name:"Lapsang Souchong Black" ,
+       {image:"http://i68.tinypic.com/6f2vwi.jpg",name:"Lapsang Souchong Black" ,
        price:"8oz $19 16oz $35",
        description:"This black tea from China is famous for its smoky aroma and flavor. The flavor comes from the drying process which has the tea leaves roasting above a pine fire. This process gives this unique tea its smoky yet refreshing flavor with hints of pine, fruit and spice. Brewing this tea gives off what people call a “campfire” aroma and brews a golden coppery color in the cup. Try this strong flavored tea straight or with sugar, milk, or lemon.",
        ingredients:""},
 
-       {name:"Earl Grey with Lavender",
+       {image:"http://i68.tinypic.com/6f2vwi.jpg",name:"Earl Grey with Lavender",
        price: "8oz $12 16oz $20",
        description:"blend of artisan black tea from Sri Lanka, flavored with bergamot (a citrus fruit) and lavendar petals. The perfect afternoon tea: zesty and exhilarating fresh citrus aroma, slightly dry to the nose, with a rounded and balanced orange rind flavor to match the tang of Ceylon black tea. Our Earl Grey Bravo benefits from a pleasantly dry finish with a lingering citrus sweetness.",
        ingredients:"Black tea*, natural oil of bergamot & lavender flowers*"},
 
-       {name:"Pumpkin Spice",
+       {image:"http://i68.tinypic.com/6f2vwi.jpg",name:"Pumpkin Spice",
        price:"8oz $12 16oz $20",
        description:"Pumpkin Spice combines organic black Indian tea with a heady medley of organic cinnamon, ginger, nutmeg, cloves and allspice to create a rich and potent cup of tea. Serve by itself, or the traditional way, with milk and sweetener for a perfect pumpkin spiced latte",
        ingredients:"(* organic): Black tea*, ginger*, cinnamon*, nutmeg*, cloves*, allspice*, and natural flavor"},
 
-       {name:"English Breakfast",
+       {image:"http://i68.tinypic.com/6f2vwi.jpg",name:"English Breakfast",
        price: "8oz $15 16oz $25",
        description:"English Breakfast is a full-bodied black tea blend that goes well with a traditional English breakfast. The original cup was made with black Keemun tea from Anhui province in China. Across many generations, plenty of different interpretations of this famous blend have been made. Our English Breakfast stays close to the classic. Made from top quality black Keemun tea, prized for its rich, slightly smoky flavor and perfectly on point astringency. Balanced, very honeyed aroma. May be enjoyed plain or with a drop of milk. This fine example of English Breakfast remains one of Adagio's most popular varieties.",
       ingredients:"Black Tea"}],
