@@ -4,14 +4,22 @@ import {Link} from "react-router"
 var TeaItems = React.createClass({
 	render:function(){
 		return(
-		
 			<li>
-				<div>
+<div className="row container">
+  <div className="row-height">
+    <div className="col-xs-3">
 
-					<img src={this.props.image}/>
-					<Link to={"/Tea/"+ this.props.category +"/" + this.props.name}><p>Name:{this.props.name}</p></Link>
-					<p>Price:{this.props.price}</p>
-				</div>
+        <Link to={"/Tea/"+ this.props.category +"/" + this.props.name}><p>Name:{this.props.name}</p></Link>
+        </div>
+      </div>
+   
+</div>
+			{
+					// <img src={this.props.image}/>
+					// <Link to={"/Tea/"+ this.props.category +"/" + this.props.name}><p>Name:{this.props.name}</p></Link>
+					// <p>Price:{this.props.price}</p>
+			}
+						
 			</li>
 			)
 	}
