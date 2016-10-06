@@ -6,7 +6,7 @@ var TeaProduct = React.createClass({
 	render:function(){
 		return(
 				<div>
-				hell
+				
 				</div>
 			)
 	}
