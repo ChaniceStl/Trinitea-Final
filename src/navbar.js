@@ -18,7 +18,7 @@ var Navbar = React.createClass({
                 <span className="icon-bar">Teaware</span>
                 <span className="icon-bar">About</span>
               </button>
-              <Link to ="/Home" className="navbar-brand brand-name pull-right"><span id ="brand-name">TriniTea</span></Link>
+              <Link to="/" className="navbar-brand brand-name pull-right"><span id ="brand-name">TriniTea</span></Link>
             </div>
             <div id="navbar" className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
