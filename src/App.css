@@ -191,12 +191,23 @@ footer p {
 
 /* content styles */
 
-
-.row{
-    border: 1px solid red;
+.teaColumns {
+overflow: visible;
+position: center;
+background-image: url("http://img.wallpaperfolder.com/f/5574BC310A55/tea-fields-images.jpg");
 }
 
-.row-height{
-    border: 1px solid blue;
+.panel-heading{
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.btn-default {
+    width: fill;
 }
 
