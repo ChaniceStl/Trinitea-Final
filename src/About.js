@@ -13,7 +13,8 @@ var About = React.createClass({
     return (
       <div id = "about-page" className ="text-center">
     	<div id ="blackbox">
-        <h1><strong><u>About Us</u></strong></h1><br/>
+        <h1><strong><u>About Us</u></strong></h1>
+          <div id ='blackbox-text'>
         <p>{this.state.storeProps.trinitea_slogan}</p>
         <p>{this.state.storeProps.trinitea_philosophy_intro}</p>
         <p>{this.state.storeProps.trinitea_philosophy_think}</p>
@@ -23,6 +24,7 @@ var About = React.createClass({
      	 <p>{this.state.storeProps.trinitea_address}</p>
       	   <p>{this.state.storeProps.trinitea_email}</p>
      	     <p>{this.state.storeProps.trinitea_phone}</p>
+          </div>
       </div>
       </div>
     )
