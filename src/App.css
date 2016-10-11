@@ -11,6 +11,7 @@ footer {
     position: absolute;
     bottom: -50px;
     width: 100%;
+    margin-top : 40px;
 }
 
 footer p {
@@ -32,7 +33,7 @@ footer p {
     /*  border: 1px solid red;*/
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 
@@ -66,6 +67,7 @@ footer p {
     background-image: url(http://i.imgur.com/MGVOYGl.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     font-size: 15px;
     width: 100vw;
@@ -199,15 +201,57 @@ background-image: url("http://img.wallpaperfolder.com/f/5574BC310A55/tea-fields-
 
 .panel-heading{
     text-align: center;
+    margin: -2px;
 }
 
 .panel-body {
     text-align: center;
     background-size: cover;
-    height: 200px;
+    height: 225px;
 }
 
 .btn-default {
     width: fill;
+}
+
+
+/*single-tea item page*/
+
+.img-rounded {
+    size: auto;
+
+/*    padding-top: -15px;*/
+}
+
+.gap-right {
+    margin:25px;
+}
+
+.text {
+/*    border: 2px solid black;*/
+    padding: 25px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.ingredients {
+/*    overflow: scroll;*/
+}
+
+.btn-primary {
+margin-left: relative;
+font-size: 20px;
+font-weight: bold;
+padding-top: 5px;
+border-radius: 1em;
+border: 2px solid black;
+margin-left: 120px;
+}
+
+.div.text{
+    height: auto;
 }
 

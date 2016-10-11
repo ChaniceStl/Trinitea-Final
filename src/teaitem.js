@@ -6,7 +6,11 @@ var TeaItems = React.createClass({
 var divStyle = {
             backgroundImage: 'url(' + this.props.image + ')'
         }
+var bgStyle = {
+			backgroundImage: 'url(' + '"http://img.wallpaperfolder.com/f/5574BC310A55/tea-fields-images.jpg"' + ')'
+}
 		return(
+			<div style ={bgStyle}>
 				<div className = "teaColumns">
         <div className="col-md-4 col-xs-4">
           <div className="panel panel-default">
@@ -16,6 +20,7 @@ var divStyle = {
           </div>
 				</div>
 				</div>
+			</div>
 			)
 	}
 })
