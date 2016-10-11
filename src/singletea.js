@@ -16,7 +16,7 @@ var SingleTea = React.createClass({
 					<h6>{this.props.ingredients}</h6><br/><br/>
 				</div>
 				</div>
-				<span className="btn btn-primary singletea-btn" href="#" role="button"> {this.props.price} </span>
+				<span className="btn btn-primary singletea-btn pagination-centered" href="#" role="button"> {this.props.price} </span>
 				</div>
 			)
 	}
