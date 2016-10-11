@@ -191,6 +191,10 @@ data.getMenu = function() {
   return this.menu;
 };
 
+data.getTeaware = function () {
+  return this.teaware;
+}
+
 data.getAbout = function() {
   return this.about;
 };
