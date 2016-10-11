@@ -4,11 +4,19 @@ var SingleTea = React.createClass({
 	render:function(){
 		return(
 				<div>
-
-					<img src={this.props.image}/>
-					<p>{this.props.price}</p><br/>
-					<p>{this.props.description}</p>
-					<p>{this.props.ingredients}</p>				
+					<div className ="imagez">
+					<img src={this.props.image} className="img-rounded pull-left gap-right"></img>
+					</div>
+					<div className="text">
+					<div className="title"><h1>
+					{this.props.name}</h1></div>
+					<h4><div className="description">
+					{this.props.description}</div></h4>
+					<div className="ingredients">
+					<h6>{this.props.ingredients}</h6><br/><br/>
+				</div>
+				</div>
+				<span className="btn btn-primary singletea-btn" href="#" role="button"> {this.props.price} </span>
 				</div>
 			)
 	}
