@@ -10,10 +10,7 @@ var Tea = React.createClass({
      	<div id="tea-grid" className="container-fluid">
      	
      		<div className="row">
-
-			  <Link to="/Tea/black" id="black" className="col-md-4 col-xs-12 teaCol">
-
-
+<Link to="/Tea/black" id="black" className="col-md-4 col-xs-12 teaCol">
 			  	<h2>Black Tea</h2>
 		  	</Link>
 

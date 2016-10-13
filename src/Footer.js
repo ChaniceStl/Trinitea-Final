@@ -7,7 +7,7 @@ var Footer = React.createClass({
     return (
   		<div>
 	    <footer className="footer">
-      <div className="container">
+      <div className="containerFooter">
         <p>TriniTea &copy; 2016</p>
       </div>
     </footer>

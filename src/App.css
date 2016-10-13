@@ -11,7 +11,6 @@ footer {
     position: absolute;
     bottom: -50px;
     width: 100%;
-    margin-top : 40px;
 }
 
 footer p {
@@ -48,6 +47,8 @@ footer p {
     width: 100vw;
 }
 
+
+
 #landing-h1 {
     padding-left: 70px;
     padding-top: 100px;
@@ -69,7 +70,6 @@ footer p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
-    font-size: 15px;
     width: 100vw;
     height: 100vh;
     /*  border: 1px solid blue;*/
@@ -90,15 +90,17 @@ footer p {
 }
 
 #blackbox-text{
-        font-size: 18px;
+        font-size: 15px;
         text-indent: 25px;
         margin: 2px;
         padding: 15px;
+
 }
 
 #blackbox h1{
     text-align: center;
     font-size: 25px;
+    overflow-y:scroll;
 }
 
 .App {
@@ -154,6 +156,12 @@ footer p {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     color: white;
+}
+
+#cartIcon {
+    width: 20%;
+    height: auto;
+    margin-bottom: 2px;
 }
 
 /*Tea.js page*/
