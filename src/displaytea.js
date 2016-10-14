@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import data from "./data.js"
 import TeaItems from "./teaitem.js"
 

@@ -143,42 +143,42 @@ let data = {
     {
      name: "BOCHA Loose Leaf Tea Maker with Glass Teapot, Built in Infuser and Removable Filter",
      price: "$17.99",
-     imgSrc: "https://images-na.ssl-images-amazon.com/images/I/61JeNL0tBjL._SL1000_.jpg"
+     image: "https://images-na.ssl-images-amazon.com/images/I/61JeNL0tBjL._SL1000_.jpg"
      // url: "https://www.amazon.com/BOCHA-Teapot-Infuser-Removable-Filter/dp/B01AD2ZDH4/ref=sr_1_12?s=kitchen&ie=UTF8&qid=1475378618&sr=1-12&keywords=tea+maker"
     },
     
     {
      name: "Chef's Star Functional Infuser Tea Maker",
      price: "$26.99",
-     imgSrc: "https://images-na.ssl-images-amazon.com/images/I/81eqlYP6QaL._SL1500_.jpg"
+     image: "https://images-na.ssl-images-amazon.com/images/I/81eqlYP6QaL._SL1500_.jpg"
      // url: "https://www.amazon.com/Chefs-Star-Functional-Infuser-Maker/dp/B010MOL2DC/ref=sr_1_15?s=kitchen&ie=UTF8&qid=1475378618&sr=1-15&keywords=tea+maker"
     },
     
     {
      name: "Kendal 27 oz glass filtering tea maker teapot with a warmer and 6 tea cups ",
      price: "$39.95",
-     imgSrc: "https://images-na.ssl-images-amazon.com/images/I/51bQJEduGVL.jpg"
+     image: "https://images-na.ssl-images-amazon.com/images/I/51bQJEduGVL.jpg"
      // url: "https://www.amazon.com/Kendal-filtering-teapot-warmer-CJ-800ml/dp/B00IY0ZCN8/ref=sr_1_58?s=kitchen&ie=UTF8&qid=1475378949&sr=1-58&keywords=tea+maker"
     },
     
     {
      name: "VidaKai Infuser Water Bottle for Loose Leaf Tea and Cold Brew Coffee and Fruit Water ",
      price: "$14.95",
-     imgSrc: "https://images-na.ssl-images-amazon.com/images/I/612WQwzDdgL._SL1001_.jpg"
+     image: "https://images-na.ssl-images-amazon.com/images/I/612WQwzDdgL._SL1001_.jpg"
      // url: "https://www.amazon.com/dp/B016NCDEI8?psc=1"
     },
     
     {
      name: "Takeya 2 Qt. Flash Chill Tea Maker Set",
      price: "$31.99",
-     imgSrc: "https://images-na.ssl-images-amazon.com/images/I/61miZ055VaL._SL1500_.jpg"
+     image: "https://images-na.ssl-images-amazon.com/images/I/61miZ055VaL._SL1500_.jpg"
      // url: "https://www.amazon.com/Takeya-Flash-Chill-Maker-pitcher/dp/B008FD037E/ref=sr_1_68?s=kitchen&ie=UTF8&qid=1475378949&sr=1-68&keywords=tea+maker"
     },
     
     {
      name: "FORLIFE Mist Glass Ice Tea Jug",
      price: "$28.26",
-     imgSrc: "https://images-na.ssl-images-amazon.com/images/I/71KGh%2BU%2B8WL._SL1500_.jpg"
+     image: "https://images-na.ssl-images-amazon.com/images/I/71KGh%2BU%2B8WL._SL1500_.jpg"
      // url: "https://www.amazon.com/FORLIFE-Mist-Glass-50-Ounce-Black/dp/B0045011DQ/ref=pd_sbs_79_7?ie=UTF8&psc=1&refRID=K29WM1ZJ9F6D8G6R8MYS"
     }
     
@@ -190,6 +190,10 @@ let data = {
 data.getMenu = function() {
   return this.menu;
 };
+
+data.getTeaware = function () {
+  return this.teaware;
+}
 
 data.getAbout = function() {
   return this.about;
