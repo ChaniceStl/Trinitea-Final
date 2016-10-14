@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router"
 
-var TeawareList = React.createClass({
+var TeawarePreview = React.createClass({
 	render: function(){
 	var divStyle = {
             backgroundImage: 'url(' + this.props.image + ')'
@@ -28,4 +28,4 @@ var TeawareList = React.createClass({
 	}
 })
 
-export default TeawareList
+export default TeawarePreview

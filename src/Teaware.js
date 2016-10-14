@@ -1,12 +1,12 @@
 import React from 'react';
 import data from "./data.js"
-import TeawareList from "./TeawareList.js"
+import TeawarePreview from "./TeawarePreview.js"
 
 
 var Teaware = React.createClass({
   getInitialState: function(){
 	  return {
-	  	teawareList:{}
+	  	teawareList:[]
 	  }
 	},
 
@@ -18,7 +18,7 @@ var Teaware = React.createClass({
 
   render: function() {
     var arr = []
-      arr.push(this.state.teawareList.map( teaware => <TeawareList 
+      arr.push(this.state.teawareList.map( teaware => <TeawarePreview 
 		  	image={teaware.image}
 		  	name={teaware.name}
 		  	price={teaware.price}
