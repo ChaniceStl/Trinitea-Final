@@ -16,7 +16,7 @@ var Navbar = React.createClass({
                 <span className="icon-bar">Home</span>
                 <span className="icon-bar">Tea</span>
                 <span className="icon-bar">Teaware</span>
-                <span className="icon-bar">About</span>
+                <span className="icon-bar">Cart</span>
               </button>
               <Link to="/" className="navbar-brand brand-name pull-right"><span id ="brand-name">TriniTea</span></Link>
             </div>
@@ -33,6 +33,9 @@ var Navbar = React.createClass({
                 </li>
                 <li>
                   <Link to='/About'>About</Link>
+                </li>
+                <li> 
+                  <Link to='/Cart'><img id="cartIcon" src ="http://shop.spacex.com/media/queldorei/shopper/new_cart_icon.png"/></Link>
                 </li>
               </ul>
             </div>
