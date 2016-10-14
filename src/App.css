@@ -32,7 +32,7 @@ footer p {
     /*  border: 1px solid red;*/
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 
@@ -46,6 +46,8 @@ footer p {
     height: 100vh;
     width: 100vw;
 }
+
+
 
 #landing-h1 {
     padding-left: 70px;
@@ -66,8 +68,8 @@ footer p {
     background-image: url(http://i.imgur.com/MGVOYGl.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
-    font-size: 15px;
     width: 100vw;
     height: 100vh;
     /*  border: 1px solid blue;*/
@@ -88,15 +90,17 @@ footer p {
 }
 
 #blackbox-text{
-        font-size: 18px;
+        font-size: 15px;
         text-indent: 25px;
         margin: 2px;
         padding: 15px;
+
 }
 
 #blackbox h1{
     text-align: center;
     font-size: 25px;
+    overflow-y:scroll;
 }
 
 .App {
@@ -154,6 +158,12 @@ footer p {
     color: white;
 }
 
+#cartIcon {
+    width: 20%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
 /*Tea.js page*/
 #black{
   background-image: url("https://hd.unsplash.com/photo-1433891248364-3ce993ff0e92");
@@ -199,15 +209,57 @@ background-image: url("http://img.wallpaperfolder.com/f/5574BC310A55/tea-fields-
 
 .panel-heading{
     text-align: center;
+    margin: -2px;
 }
 
 .panel-body {
     text-align: center;
     background-size: cover;
-    height: 200px;
+    height: 225px;
 }
 
 .btn-default {
     width: fill;
+}
+
+
+/*single-tea item page*/
+
+.img-rounded {
+    size: auto;
+
+/*    padding-top: -15px;*/
+}
+
+.gap-right {
+    margin:25px;
+}
+
+.text {
+/*    border: 2px solid black;*/
+    padding: 25px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.ingredients {
+/*    overflow: scroll;*/
+}
+
+.btn-primary {
+margin-left: 0;
+font-size: 20px;
+font-weight: bold;
+padding-top: 5px;
+border-radius: 1em;
+border: 2px solid black;
+align-items: center;
+}
+
+.div.text{
+    height: auto;
 }
 
